@@ -58,6 +58,18 @@ body {
   left: 51%;
   border-radius: 15px;
   box-shadow: 0 0 10px 2px red;
+  position: relative;
+}
+.second::before{
+  content: "";
+  width: 5px;
+  height: 30px;
+  position: absolute;
+  bottom: -30px;
+  left: -2px;
+  background-color: #000;
+  box-shadow: 0 0 10px 2px red;
+  border-radius: 15px;
 }
 
 .center-circle {
