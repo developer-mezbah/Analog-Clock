@@ -16,6 +16,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  filter: hue-rotate(392deg);
+  /* filter: hue-rotate(1448deg); */
 }
 
 .hand {
